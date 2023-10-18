@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+const LoginToken string = "ghabasdap"
 
 func main() {
 	var username string = "Jasmeet"
@@ -18,4 +22,18 @@ func main() {
 	var smallFloat float64 = 255.232341412412412345667
 	fmt.Println(smallFloat)
 	fmt.Printf("Variable is of type: %T \n", smallFloat)
+
+	// default values
+	var anotherVariable int;
+	fmt.Println(anotherVariable)
+	fmt.Printf("Variable is of type: %T \n", anotherVariable)
+
+	var web = "goog.com"
+	fmt.Println(web)
+
+	// no var style
+	numberOfUser := 300000
+	fmt.Println(numberOfUser)
+    
+	fmt.Println(LoginToken)
 }
